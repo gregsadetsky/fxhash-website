@@ -1,5 +1,5 @@
-import { ClientOnlyEmpty } from "../Utils/ClientOnly";
-import { LogoGenerative } from "./LogoGenerative";
+import { ClientOnlyEmpty } from "../Utils/ClientOnly"
+import { LogoGenerative } from "./LogoGenerative"
 
 /**
  * The Logo component acts as a container for the Generative Logo, as it will
@@ -8,7 +8,7 @@ import { LogoGenerative } from "./LogoGenerative";
 export function Logo() {
   return (
     <ClientOnlyEmpty>
-      <LogoGenerative/>
+      <LogoGenerative />
     </ClientOnlyEmpty>
   )
 }
